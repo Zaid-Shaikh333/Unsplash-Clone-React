@@ -1,0 +1,40 @@
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar li{
+    margin: auto;
+    cursor: pointer;
+}
+
+.search-input{
+    height: 2.5rem;
+    width: 45vw;
+    border-radius: 2rem;
+    background-color: #e6f1ef;
+    border: none;
+    outline: none;
+    padding-left: 2rem;
+}
+
+.category-slider{
+    display: flex;
+    margin: auto;
+}
+.category-slider ul{
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+}
+.category-slider li{
+    margin: 0.2rem 1rem;
+}
+.home-image-library, .category-library{
+    margin: 1rem;
+}
+.category-links{
+    text-decoration: none;
+    color: gray;
+}
