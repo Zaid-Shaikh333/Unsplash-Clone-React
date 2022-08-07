@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { CLIENT_ID } from '../Secret';
 
 export const Categories = () => {
     const [categories, setCategories] = useState([])
-    const category_url = `https://api.unsplash.com/topics?client_id=a3UHM6AA9sAjHoblXGcI1uUu6fjEfpBJaBNuJwDlqXk`;
+    const category_url = `https://api.unsplash.com/topics?client_id=${CLIENT_ID}`;
 
     useEffect(() => {
         fetch(category_url)

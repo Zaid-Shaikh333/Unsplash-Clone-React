@@ -5,8 +5,8 @@
 }
 
 .navbar li{
-    margin: auto;
     cursor: pointer;
+    margin: auto 1rem;
 }
 
 .search-input{
@@ -37,4 +37,22 @@
 .category-links{
     text-decoration: none;
     color: gray;
+}
+.user-thumb{
+    border-radius: 50%;
+}
+.popup-image{
+    display: flex;
+    justify-content: center;
+    margin: 0 7%;
+}
+.likes{
+    display: flex;
+}
+.likes p{
+    margin: 2px 0.5rem 5px;
+    vertical-align: middle;
+}
+.likes-icon{
+    margin: auto 2px;
 }
