@@ -38,6 +38,10 @@
     text-decoration: none;
     color: gray;
 }
+.category-links:hover{
+    text-decoration: none;
+    color: grey;
+}
 .user-thumb{
     border-radius: 50%;
 }

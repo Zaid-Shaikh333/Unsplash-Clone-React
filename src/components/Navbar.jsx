@@ -25,8 +25,6 @@ export const Navbar = () => {
                         />
                     </li>
                     <li>Explore</li>
-                    <li>Advertise</li>
-                    <li>Blog</li>
                     <li>Login/Sign up</li>
                 </ul>
             </div>
