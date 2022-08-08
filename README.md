@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Hosted
+The site is hosted here: https://62f0aabaabfa6d20c1fc54f9--tourmaline-starlight-b94544.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
